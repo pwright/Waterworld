@@ -1,0 +1,15 @@
+= git-world
+
+. Install the required modules:
++
+----
+npm i
+----
+
+. Edit the `index.adoc` file.
+
+. Create HTML:
++
+----
+make render
+----

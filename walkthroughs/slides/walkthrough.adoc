@@ -1,4 +1,4 @@
-= Creating Solution Patterns without writing text
+= Understanding Git
 
 image::slide-imgs/solx.png[]
 
