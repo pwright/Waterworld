@@ -5,18 +5,29 @@
 
 == Imagine
 
-Imagine a video game, consisting of three parts:
+Imagine a video game world, consisting of three parts:
 
-* In the water - where the real game play is...
-* On the shore - not much happens there...
-* On the cliff top - you've got a GPS position, but the only way to proceed is to jump back into the water.
+* In the water - *working directory*
+* On the shore - *the index*
+* On the cliff top - *the HEAD*
 
-NOTE: There are more worlds in this universe, but you don't get to play on those.
+NOTE: There are more worlds in this universe, let's start there ;)
+
+
+== My personal Git world
+
+image::slide-imgs/multiworld.jpg[width=20%]
+
+You can delete/mess up your Git world at any time:
+
+* other worlds (eg GitHub) are not affected
+* you can recreate the world easily
+
 
 == Into the water
 
-In the water, you are not safe, everything can be lost.
-However, it's also the place where work happens.
+After cloning a repo, you can start changing files. 
+In that Git world game, that's like being in the water:
 
 video::LcFpn-LMerk[youtube]
 
@@ -47,21 +58,24 @@ NOTE: Typically, the strategy is to ony keep the fish you value.
 
 == On the shore
 
+(staging in real Git)
 You have a mobile phone with GPS, 
 but the shadow of the cliff prevents you from receiving a signal.
 
 Most folk choose to go <<On the cliff top>>.
 
-image::slide-imgs/climbing.jpg[]
+image::slide-imgs/climbing.jpg[width=30%]
 
 === Return to the water from the shore
 
 If you return to the water, you can end up confused. 
 For example, you can end up with some fish on one part of the shore and the same fish on another part.
 Strange things can happen whenever you try this.
+(once you stage files in Git, probably best to commit them)
 
 == On the cliff top
 
+(commit in real Git)
 On the cliff top, you have a GPS signal, and can view your coordinates:
 
 * They look weird: 4271d8308e2c85dd78ee0065d283647265db2a19
@@ -75,7 +89,7 @@ Whenever you reach the cliff top, you leave the fish and a GPS beacon at that si
 
 === Where can you go?
 
-image::slide-imgs/clifftop.jpg[]
+image::slide-imgs/clifftop.jpg[width=30%]
 
 
 You cannot move, your only choice is to dive back <<Into the water>>.
@@ -103,14 +117,14 @@ You notice that the dry worlds have 'highlands' and 'coasts' with beacons that m
 
 === Retrieving beacons from other worlds
 
-image::slide-imgs/multiworld.jpg[]
+image::slide-imgs/multiworld.jpg[width=40%]
 
 
 You find that if you think hard enough you can retrieve beacons from these worlds
 
 === Projecting beacons 
 
-image::slide-imgs/multiworld.jpg[]
+image::slide-imgs/multiworld.jpg[width=40%]
 
 You find that if you think hard enough you can project your beacons to these worlds
 
@@ -129,3 +143,11 @@ You can see that whenever you project a beacon to it, the notebook is updated, c
 The beacons on the moon can change. 
 When the notebook on the moon changes, you find it difficult to retrieve the contents down to your world.
 If you cannot retrieve the beacons, it makes it difficult to explore new areas of the sea, where there might be treasure.
+
+== Conclusion
+
+There are lots of pages about the three trees of git, for example:
+
+image::https://cms-assets.tutsplus.com/uploads/users/48/posts/28188/image/Three-Trees.jpg[width=30%]
+
+link:https://code.tutsplus.com/tutorials/what-are-the-three-trees-in-git--cms-28188[]
