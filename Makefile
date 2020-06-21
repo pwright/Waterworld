@@ -21,6 +21,16 @@
 
 export PYTHONPATH := python
 
+.PHONY: adoc
+adoc: 
+		HYGEN_OVERWRITE=1 hygen world makeAdoc --dirName antora --compName world
+
+.PHONY: antora
+antora:
+		HYGEN_OVERWRITE=1 hygen world antora --dirName antora --htmlDir docs --compName world
+		touch .jekyll
+		touch docs/.jekyll
+
 .PHONY: render
-render: 
-		node ./convert.js
+render:
+		antora local-antora-playbook.yml
