@@ -30,3 +30,6 @@ asciidoc:
     registry: Apicurio Registry
     apicurio-registry: true
     page-pagination: true
+  extensions:
+    - asciidoctor-plantuml
+    - ./lib/tab-block.js

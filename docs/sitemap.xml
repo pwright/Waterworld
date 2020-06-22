@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://pwright.github.io/apicurio-registry/html/world/latest/gdoc.html</loc>
-<lastmod>2020-06-21T09:28:33.247Z</lastmod>
+<lastmod>2020-06-21T10:30:12.157Z</lastmod>
+</url>
+<url>
+<loc>https://pwright.github.io/apicurio-registry/html/world/latest/git.html</loc>
+<lastmod>2020-06-21T10:30:12.157Z</lastmod>
 </url>
 <url>
 <loc>https://pwright.github.io/apicurio-registry/html/world/latest/index.html</loc>
-<lastmod>2020-06-21T09:28:33.247Z</lastmod>
+<lastmod>2020-06-21T10:30:12.157Z</lastmod>
+</url>
+<url>
+<loc>https://pwright.github.io/apicurio-registry/html/world/latest/svn.html</loc>
+<lastmod>2020-06-21T10:30:12.157Z</lastmod>
 </url>
 </urlset>
