@@ -28,8 +28,8 @@ adoc:
 .PHONY: antora
 antora:
 		HYGEN_OVERWRITE=1 hygen world antora --dirName antora --htmlDir docs --compName GitWorld
-		touch .jekyll
-		touch docs/.jekyll
+		touch .nojekyll
+		touch docs/.nojekyll
 
 .PHONY: render
 render:
