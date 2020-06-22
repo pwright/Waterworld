@@ -1,7 +1,7 @@
 site:
   title: GitWorld
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://pwright.github.io/Waterworld/GitWorld/
+  url: https://pwright.github.io/Waterworld/
   start_page: GitWorld::index.adoc
 content:
   sources:
