@@ -1,0 +1,4 @@
+= Collect coins
+
+
+image::coin.jpg[width=80%]

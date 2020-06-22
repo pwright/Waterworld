@@ -23,11 +23,11 @@ export PYTHONPATH := python
 
 .PHONY: adoc
 adoc: 
-		HYGEN_OVERWRITE=1 hygen world makeAdoc --dirName antora --compName world
+		HYGEN_OVERWRITE=1 hygen world makeAdoc --dirName antora --compName GitWorld
 
 .PHONY: antora
 antora:
-		HYGEN_OVERWRITE=1 hygen world antora --dirName antora --htmlDir docs --compName world
+		HYGEN_OVERWRITE=1 hygen world antora --dirName antora --htmlDir docs --compName GitWorld
 		touch .jekyll
 		touch docs/.jekyll
 
