@@ -4,7 +4,7 @@ to: local-antora-playbook.yml
 site:
   title: <%= compName %>
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://pwright.github.io/apicurio-registry/html
+  url: https://pwright.github.io/Waterworld/GitWorld/
   start_page: <%= compName %>::index.adoc
 content:
   sources:
